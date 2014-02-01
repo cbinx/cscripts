@@ -5,8 +5,10 @@
 int main (void)
 {
 
-	int values[10];
-	int index;
+	int values[10], index;
+
+	for ( index = 0; index < 10; ++index )
+	     values[index] = 0;
 
 	values[0] = 197;
 	values[2] = -100;
